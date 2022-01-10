@@ -31,7 +31,7 @@ The Internet started in the 1960s under the original name "ARPAnet". ARPAnet was
 **No single person owns the Internet!**
 
 No single government has authority over its operations. Some technical rules and hardware/software standards enforce how people plug into the Internet, but for the most part, the Internet is a free and open broadcast medium of hardware networking.
-:::info
+:: :information_source
 The Web is a big collection of HTML pages on the Internet.
 :::
 
