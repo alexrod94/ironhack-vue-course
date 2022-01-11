@@ -26,19 +26,19 @@ For this reason, it's considered a good practice to use Semantic Elements over n
 
 There are many different Semantic Elements that can be used when building a website. In no particular order, these are some of the most important ones:
 
-- <article>
-- <aside>
-- <details>
-- <figcaption>
-- <figure>
-- <footer>
-- <header>
-- <main>
-- <mark>
-- <nav>
-- <section>
-- <summary>
-- <time>
+- `<article>`
+- `<aside>`
+- `<details>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<header>`
+- `<main>`
+- `<mark>`
+- `<nav>`
+- `<section>`
+- `<summary>`
+- `<time>`
 
 Next we'll review some of these elements in depth.
 
