@@ -52,4 +52,47 @@ A `<header>` element typically contains:
 - A logo or icon
 - Authorship information
 
-Note: You can have several `<header>` elements in one HTML document. However, `<header>` cannot be placed within a `<footer>`, `<address>` or another `<header>` element.
+Headers are typically present in most websites.
+
+### Footer
+
+The other side of the coin, the `<footer>` element is used to define the footer section of an HTML document.
+
+Footers can include any kind of information, but some of the most common elements inside of it are the following:
+
+- Authorship & copyright information
+- Contact data & social links
+- Sitemap
+- Legal documents
+
+It's possible to include several footer elements in a single document.
+
+### Nav
+
+A `<nav>` element is used to include the main navigation links on a website. Not all navigation links have to be inside here; `<nav>` elements are typically used inside a navbar.
+
+### Section
+
+The `<section>` tag is one of the most generic semantic elements in HTML5. It is used to define a specific section inside a document, which involves a group of content that's thematically related.
+
+For example, a website can have a `<section>` in the introductory part, another one for the 'About Us' section, and a final one with contact information inside.
+
+### Article
+
+The `<article>` semantic element is used to point to independent, self-contained content.
+
+An article should make sense on its own, and it should be possible to distribute it independently from the rest of the document.
+
+Examples of where the `<article>` element can be used:
+
+- Forum posts
+- Blog posts
+- User comments
+
+### Other semantic elements
+
+Here are some other semantic elements and a brief description of their use:
+
+| <b>Tab</b> | <b>Description</b>                     |
+| ---------- | -------------------------------------- |
+| `<aside`   | Defines content in a "sidebar" section |
