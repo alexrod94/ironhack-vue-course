@@ -25,3 +25,30 @@ For this reason, it's considered a good practice to use Semantic Elements over n
 ## Important Semantic Elements
 
 There are many different Semantic Elements that can be used when building a website. In no particular order, these are some of the most important ones:
+
+- <article>
+- <aside>
+- <details>
+- <figcaption>
+- <figure>
+- <footer>
+- <header>
+- <main>
+- <mark>
+- <nav>
+- <section>
+- <summary>
+- <time>
+
+Next we'll review some of these elements in depth.
+
+### Header
+
+The `<header>` element represents a container for introductory content or a set of navigational links.
+
+A <header> element typically contains:
+
+one or more heading elements (<h1> - <h6>)
+logo or icon
+authorship information
+Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
