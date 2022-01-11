@@ -93,6 +93,8 @@ Examples of where the `<article>` element can be used:
 
 Here are some other semantic elements and a brief description of their use:
 
-| <b>Tab</b> | <b>Description</b>                     |
-| ---------- | -------------------------------------- |
-| `<aside`   | Defines content in a "sidebar" section |
+| <b>Tab</b>  | <b>Description</b>                                    |
+| ----------- | ----------------------------------------------------- |
+| `<aside>`   | Defines content in a "sidebar" section                |
+| `<details>` | Gives additional information that the user can toggle |
+| `<figure>`  | Used to include self - contained, graphic content     |
