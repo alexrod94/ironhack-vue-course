@@ -150,6 +150,8 @@ Now let's take a look at the code in the given example and let's explain some of
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_1e69925bf7c951d9943654a612c1ee83.png)
 
+Want to know more about what the DOM is and how it works? Let's watch [this video](https://www.youtube.com/watch?v=KShnPYN-voI) to learn more about the basics.
+
 ## “Block” Vs “Inline”
 
 :::warning
