@@ -46,9 +46,10 @@ Next we'll review some of these elements in depth.
 
 The `<header>` element represents a container for introductory content or a set of navigational links.
 
-A <header> element typically contains:
+A `<header>` element typically contains:
 
-one or more heading elements (<h1> - <h6>)
-logo or icon
-authorship information
-Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
+- One or more heading elements
+- A logo or icon
+- Authorship information
+
+Note: You can have several `<header>` elements in one HTML document. However, `<header>` cannot be placed within a `<footer>`, `<address>` or another `<header>` element.
