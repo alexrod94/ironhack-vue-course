@@ -84,9 +84,33 @@ Footers can include any kind of information, but some of the most common element
 
 It's possible to include several footer elements in a single document.
 
+#### Example
+
+Here's an example of a typical footer structure with some information about the website's author and a link to the main page.
+
+```html
+<footer>
+  <p>Author: Ironhack</p>
+  <p><a href="https://ironhack.com">Visit Our Website</a></p>
+</footer>
+```
+
 ### Nav
 
 A `<nav>` element is used to include the main navigation links on a website. Not all navigation links have to be inside here; `<nav>` elements are typically used inside a navbar.
+
+#### Example
+
+A `<nav>` element is usually found in a website's `<header>`. Here's a typical navigation structure that might be included in an informational site:
+
+```html
+<nav>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/services">Services</a>
+  <a href="/contact">Contact</a>
+</nav>
+```
 
 ### Section
 
