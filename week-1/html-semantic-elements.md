@@ -154,6 +154,29 @@ Examples of where the `<article>` element can be used:
 - Blog posts
 - User comments
 
+#### Example
+
+Here's an HTML excerpt including two independent articles:
+
+```html
+<article>
+  <h2>Article 1</h2>
+  <p>
+    Mauris ac est at nulla porta luctus. Donec commodo efficitur eros. Aenean
+    accumsan iaculis eros rutrum maximus. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia curae.
+  </p>
+</article>
+
+<article>
+  <h2>Article 2</h2>
+  <p>
+    In id mi et turpis bibendum rhoncus vitae vitae purus. Sed a felis placerat,
+    pulvinar elit et, pharetra risus. Aenean cursus ut neque vitae auctor.
+  </p>
+</article>
+```
+
 ### Other semantic elements
 
 Here are some other semantic elements and a brief description of their use:
