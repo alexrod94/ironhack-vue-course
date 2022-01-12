@@ -98,3 +98,23 @@ Here are some other semantic elements and a brief description of their use:
 | `<aside>`   | Defines content in a "sidebar" section                |
 | `<details>` | Gives additional information that the user can toggle |
 | `<figure>`  | Used to include self - contained, graphic content     |
+| `<mark>`    | Defines marked/highlighted text                       |
+
+## Example
+
+Semantic elements can be used in many different ways. It is generally considered a good practice to use them to structure a web application whenever possible.
+
+Here's an example that uses the `<article>` tag with a `<header>` inside of it:
+
+```html
+<article>
+  <header>
+    <h1>This is a sample article</h1>
+    <p>Lorem ipsum</p>
+  </header>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies
+    congue augue in laoreet. Nunc in tempor magna. Nunc nec interdum leo.
+  </p>
+</article>
+```
