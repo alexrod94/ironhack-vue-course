@@ -118,3 +118,14 @@ Here's an example that uses the `<article>` tag with a `<header>` inside of it:
   </p>
 </article>
 ```
+
+## Summary
+
+In this lesson we've learned what Semantic Elements are in HTML and how to use them.
+
+We've also taken a look at some of the ones that are most commonly used in modern web applications.
+
+## Extra resources
+
+- [W3Schools Official Documentation](https://www.w3schools.com/html/html5_semantic_elements.asp) - A very comprehensive explanation of most HTML semantic elements and what to use them for.
+- [FreeCodeCamp article on Semantic Elements](https://www.freecodecamp.org/news/semantic-html5-elements/) - This article gives additional information on some semantic elements and how to use them.
