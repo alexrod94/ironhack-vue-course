@@ -52,7 +52,24 @@ A `<header>` element typically contains:
 - A logo or icon
 - Authorship information
 
-Headers are typically present in most websites.
+Headers are typically present in most websites, and in most sub elements such as articles.
+
+#### Example
+
+Here's an example of an `<article>` element with a header section.
+
+```html
+<article>
+  <header>
+    <h1>This is the article's title</h1>
+    <p>And this is the article's description</p>
+  </header>
+  <p>
+    Nam varius, mauris a scelerisque auctor, est quam tristique sapien, vitae
+    venenatis magna velit id mauris.
+  </p>
+</article>
+```
 
 ### Footer
 
@@ -76,6 +93,30 @@ A `<nav>` element is used to include the main navigation links on a website. Not
 The `<section>` tag is one of the most generic semantic elements in HTML5. It is used to define a specific section inside a document, which involves a group of content that's thematically related.
 
 For example, a website can have a `<section>` in the introductory part, another one for the 'About Us' section, and a final one with contact information inside.
+
+#### Example
+
+This is a document with two different sections:
+
+```html
+<section>
+  <h1>This is my title 1</h1>
+  <p>
+    Aenean et congue est. Interdum et malesuada fames ac ante ipsum primis in
+    faucibus. Donec facilisis, augue id egestas viverra, nisl diam maximus
+    justo, ut laoreet lectus diam vitae eros. Cras pellentesque leo sem, et
+    suscipit leo eleifend vel.
+  </p>
+</section>
+
+<section>
+  <h1>This is my title 2</h1>
+  <p>
+    Pellentesque id sagittis elit, vitae ullamcorper velit. Integer sed arcu
+    vitae sem tempus feugiat vel et ipsum.
+  </p>
+</section>
+```
 
 ### Article
 
