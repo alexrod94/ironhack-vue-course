@@ -188,9 +188,11 @@ Here are some other semantic elements and a brief description of their use:
 | `<figure>`  | Used to include self - contained, graphic content     |
 | `<mark>`    | Defines marked/highlighted text                       |
 
-## Example
+## Combining different elements
 
 Semantic elements can be used in many different ways. It is generally considered a good practice to use them to structure a web application whenever possible.
+
+Most HTML semantic elements can also be combined with each other to create more complex structures.
 
 Here's an example that uses the `<article>` tag with a `<header>` inside of it:
 
