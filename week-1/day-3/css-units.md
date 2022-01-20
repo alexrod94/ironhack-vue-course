@@ -22,7 +22,8 @@ Here are three of the most used units to express size through CSS:
 3. **rem**
    :::
 
-**`px`** stands for _pixel_ which is the standard and the easiest measurement to use but might not be the best option always. Imagine the following: you set the font size of each element in HTML document and now you have to make some changes to satisfy users' needs, and you have to do it manually, one by one since each value is fixed (value of 14px will always stay 14px). If you want to have more flexibility and be able to adjust the font of children elements based on the changes in font size of the parent element, you will have to go for other two options - _em_ and _rem_.
+**`px`** stands for _pixel_ which is the standard and the easiest measurement to use but might not be the best option always. Imagine the following: you set the font size of each element in HTML document and now you have to make some changes to satisfy users' needs, and you have to do it manually, one by one since each value is fixed (value of 14px will always stay 14px).
+If you want to have more flexibility and be able to adjust the font of children elements based on the changes in font size of the parent element, you will have to go for other two options - _em_ and _rem_.
 
 An **`em`** is equal to the computed _font-size_ of that element's parent. For example, if there is a _div_ element with `font-size: 16px;` then for that div and for its children `1em = 16px`.
 If font-size is not defined explicitly, that element will inherit it from the parent element. The inheritance continues through ancestors up until the root element. Default font-size of the root element is provided by a browser.
@@ -44,3 +45,34 @@ Example and its explanation is based the following article: [CSS units for font-
 :::
 
 There are default tags for each HTML element, and we can adjust it is size if needed.
+
+## Other size units in CSS
+
+Besides `px`, `em` and `rem`, there are three other units that are commonly used in different contexts:
+
+- `vw`
+- `vh`
+- `%`
+
+**`%`** is used to express relative size compared to the parent element. It is commonly used along with properties like width and height.
+
+Similarly, **`vw`** also implies relative size; but in this case, it refers to the browser window's width. An element with a `1vw` width will measure 1% of the viewport.
+
+On the other hand, **`vh`** refers to the browser's height. Again, an element with a `1vh` height will measure 1% of that of the browser's window.
+
+These three units are specially useful to create responsive designs, as the elements you use them with will scale up or down depending on the size of the browser window or the element they're contained in.
+
+Usually, `%`, `vw` and `vh` are used in CSS properties like width or height instead of others such as font size.
+
+## Summary
+
+In this unit, you learned about CSS Units and some of their most common uses
+
+- You've learned that most of the time you'll use `px`, `em` and `rem` in order to indicate different properties such as width, height, font size, margin or padding.
+- On the other hand, you've also seen other, less common CSS Units that allow you to give items a relative size. Specifically, you've learned about `%`, `vw` and `vh`.
+
+## Extra Resources
+
+- [CSS Units](https://www.w3schools.com/cssref/css_units.asp) - W3C Schools summary of CSS Units.
+- [Common Size Units](https://htmlandcssguidebook.com/css/size-units/) - HTML & CSS Guidebook explanation of the most common CSS Units.
+- [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) - Mozilla Developer Network summary of CSS Units.
