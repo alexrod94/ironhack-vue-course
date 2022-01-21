@@ -101,6 +101,49 @@ We're defining two rows with four equally sized columns each. Then, with the fol
 
 Again, the Grid property allows us to create very complex layouts and there's much more to it. However, we'll explore it in more detail in future lessons.
 
+## Floats
+
+Float is one of the oldest ways of changing a document's layout. With the `float` CSS property, you can move an element to the left or right side of the screen and remove it from the normal HTML flow. The rest of the elements will float around it, hence its name.
+
+There are only four `float` values:
+
+- `left`: Moves the element to the left.
+- `right`: Moves the element to the right.
+- `none`: Returns the element to the normal HTML flow. This is the default value.
+- `inherits`: The element inherits its float property from its parent.
+
+In the following example, we'll use `float` in order to place a box on the right side of the screen and have some text "floating" around it. This is one of its most common uses today:
+
+```css
+.box {
+  float: right;
+  width: 125px;
+  height: 125px;
+  margin-left: 20px;
+  background: lightgreen;
+}
+```
+
+```html
+<h2>Float example</h2>
+
+<div class="box">Floating box</div>
+
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus aliquam
+  dolor, eu lacinia lorem placerat vulputate. Duis felis orci, pulvinar id metus
+  ut, rutrum luctus orci. Cras porttitor imperdiet nunc, at ultricies tellus
+  laoreet sit amet. Sed auctor cursus massa at porta. Integer ligula ipsum,
+  tristique sit amet orci vel, viverra egestas ligula. Curabitur vehicula tellus
+  neque, ac ornare ex malesuada et. In vitae convallis lacus. Aliquam erat
+  volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros
+  pharetra congue. Duis ornare egestas augue ut luctus. Proin blandit quam nec
+  lacus varius commodo et a urna. Ut id ornare felis, eget fermentum sapien.
+</p>
+```
+
+Again, you can see the results [in this link](https://codepen.io/alexrod94/pen/rNGEgWz).
+
 ## Positioning techniques
 
 The most common way to lay out content on the web is using absolute positioning. This means that each element has its own space on the page and it's positioned relative to the viewport. It's easy to understand but not always flexible.
