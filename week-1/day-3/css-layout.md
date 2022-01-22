@@ -180,8 +180,27 @@ Keep in mind that we can change which element acts as the parent if we give a co
 
 ### Fixed positioning
 
-The most common way to set a fixed element's position is by using the `position` property. This works well if you want to place elements side by side or above each other but it doesn't allow you to control where they appear relative to the edges of the browser window.
+Fixed positioning works in a very similar way to the absolute condition. However, with `position: fixed` we make the element's position relative to the viewport.
+
+One of the most common ways of using this value is by creating a menu that stays fixed while we scroll through a website.
 
 ### Sticky positioning
 
-The sticky positioning property allows us to define where elements should stick to the edges of their container if they don't fit inside it. This is useful for creating navigation bars, headers, footers, and toolbars.
+Sticky positioning mixes some of the properties of the "static" and "fixed" options. An element that we alter with `position: sticky` will stay in its usual place until it hits the offset we've defined for it. At that point it will become fixed.
+
+## Other techniques
+
+In this lesson we've seen some of the most commonly used ways to design a complex layout using CSS. However, throughout the history of web development there have been other methods of creating layouts that have gone out of favor nowadays.
+
+We won't dive deeper into them; but here are two other options you might see in your web development career:
+
+- Table layouts.
+- Columns layouts.
+
+Both of them are rarely used today and you will probably only encounter them when working with legacy technology or maintaining pre existing code.
+
+## Exercise
+
+In order to practice what you've learned today, let's do an exercise. You have to recreate the following layout using any of the techniques you've learned today, whether it's floats, positioning, flexbox or grid:
+
+![css-layout-mock](../../css-layout-mock.png)
