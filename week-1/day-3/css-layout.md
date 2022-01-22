@@ -146,47 +146,7 @@ Again, you can see the results [in this link](https://codepen.io/alexrod94/pen/r
 
 ## Positioning techniques
 
-Another very common way to lay out content on the web is using the positioning property. With it you can move an element from its original place to any other location on the design's layout.
-
-The use of positioning is normally a bit different than that of the previous methods we've just discussed; it's normally used to fine tune the location of a single element instead of as the main way to create a complete layout.
-
-There are 5 types of positioning we can use to change the design of a layout:
-
-- Static positioning.
-- Relative positioning.
-- Absolute positioning.
-- Fixed positioning.
-- Sticky positioning.
-
-Let's see each of them in more detail.
-
-### Static positioning
-
-This is the standard value of the positioning property. It simply means "let the element stay in its normal place inside the document".
-
-### Relative positioning
-
-Relative positioning lets you move an element from its starting point inside of a document. This can allow you to fine tune its final position, and achieve tasks such as aligning a box or an icon with other elements on the screen.
-
-[Here's a simple example of relative positioning](https://codepen.io/alexrod94/pen/MWENeZL).
-
-### Absolute positioning
-
-Absolute positioning works in a similar way to relative positioning; but instead of moving the element from its normal location inside the document, it uses the edge of another element (usually the browser window) as a starting point.
-
-This means that we can completely remove the element from the normal flow of the document and [get a result like this one](https://codepen.io/alexrod94/pen/dyVxXLX).
-
-Keep in mind that we can change which element acts as the parent if we give a container the `position: relative` property.
-
-### Fixed positioning
-
-Fixed positioning works in a very similar way to the absolute condition. However, with `position: fixed` we make the element's position relative to the viewport.
-
-One of the most common ways of using this value is by creating a menu that stays fixed while we scroll through a website.
-
-### Sticky positioning
-
-Sticky positioning mixes some of the properties of the "static" and "fixed" options. An element that we alter with `position: sticky` will stay in its usual place until it hits the offset we've defined for it. At that point it will become fixed.
+We've already seen how to use the `position` property to alter a document's layout in a previous lesson. However, it's important to keep in mind that this is one of the most useful techniques to alter the normal flow of a layout.
 
 ## Other techniques
 
