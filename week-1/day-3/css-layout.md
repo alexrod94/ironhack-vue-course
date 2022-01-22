@@ -164,3 +164,13 @@ Both of them are rarely used today and you will probably only encounter them whe
 In order to practice what you've learned today, let's do an exercise. You have to recreate the following layout using any of the techniques you've learned today, whether it's floats, positioning, flexbox or grid:
 
 ![css-layout-mock](../../assets/css-layout-mock.png)
+
+## Lesson Summary
+
+In this lesson you've been introduced to the basics of the most common techniques used to alter the layout of an HTML document. In following lessons we'll dive deeper into the more advanced techniques, such as `flexbox` and `grid`.
+
+## Further Resources
+
+- [This articles contains all the basics on CSS layout control](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Introduction).
+- [This article](https://www.tutorialrepublic.com/html-tutorial/html-layout.php) discusses the use of table - based layouts in order to create complex designs.
+- [This article](https://www.w3schools.com/css/css3_multiple_columns.asp) teaches you how to use the `column` CSS property.
