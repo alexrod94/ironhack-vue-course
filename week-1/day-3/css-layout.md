@@ -146,15 +146,37 @@ Again, you can see the results [in this link](https://codepen.io/alexrod94/pen/r
 
 ## Positioning techniques
 
-The most common way to lay out content on the web is using absolute positioning. This means that each element has its own space on the page and it's positioned relative to the viewport. It's easy to understand but not always flexible.
+Another very common way to lay out content on the web is using the positioning property. With it you can move an element from its original place to any other location on the design's layout.
+
+The use of positioning is normally a bit different than that of the previous methods we've just discussed; it's normally used to fine tune the location of a single element instead of as the main way to create a complete layout.
+
+There are 5 types of positioning we can use to change the design of a layout:
+
+- Static positioning.
+- Relative positioning.
+- Absolute positioning.
+- Fixed positioning.
+- Sticky positioning.
+
+Let's see each of them in more detail.
+
+### Static positioning
+
+This is the standard value of the positioning property. It simply means "let the element stay in its normal place inside the document".
 
 ### Relative positioning
 
-The most important thing to know about relative positioning is that it's based on the parent element. So if you want to move something down the page, you'd use top: 100px; left: 50%;. If you wanted to move something from one side of the screen to another, you'd use margin-left: -100px;.
+Relative positioning lets you move an element from its starting point inside of a document. This can allow you to fine tune its final position, and achieve tasks such as aligning a box or an icon with other elements on the screen.
+
+[Here's a simple example of relative positioning](https://codepen.io/alexrod94/pen/MWENeZL).
 
 ### Absolute positioning
 
-The absolute positioning property allows us to place elements anywhere within the page. It's important to note that it doesn't affect any other properties of the element, so if you want to move something around, you'll need to set its top, left, right, bottom, width, height, margin, padding, border, background color, etc. properties accordingly.
+Absolute positioning works in a similar way to relative positioning; but instead of moving the element from its normal location inside the document, it uses the edge of another element (usually the browser window) as a starting point.
+
+This means that we can completely remove the element from the normal flow of the document and [get a result like this one](https://codepen.io/alexrod94/pen/dyVxXLX).
+
+Keep in mind that we can change which element acts as the parent if we give a container the `position: relative` property.
 
 ### Fixed positioning
 
