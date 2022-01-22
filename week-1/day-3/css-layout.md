@@ -163,4 +163,4 @@ Both of them are rarely used today and you will probably only encounter them whe
 
 In order to practice what you've learned today, let's do an exercise. You have to recreate the following layout using any of the techniques you've learned today, whether it's floats, positioning, flexbox or grid:
 
-![css-layout-mock](../../css-layout-mock.png)
+![css-layout-mock](../../assets/css-layout-mock.png)
